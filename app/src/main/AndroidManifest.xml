@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.puneragroups.punerainvestmartadmin" >
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".Bean"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MarketIndices"
+            android:exported="true"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AddMarketIndices"
+            android:exported="true"
+            android:parentActivityName=".MarketIndices"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EditMarketIndices"
+            android:exported="true" />
+        <activity
+            android:name=".EditCustomer"
+            android:exported="true"
+            android:parentActivityName=".CustomerDetails"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AddFeedActivity"
+            android:exported="true"
+            android:parentActivityName=".FeedsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FeedsActivity"
+            android:exported="true"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".DepositActivity" />
+        <activity android:name=".IntrestReturnsActivity" />
+        <activity
+            android:name=".CustomerDetails"
+            android:parentActivityName=".CustomersListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CustomersListActivity"
+            android:parentActivityName=".Customers"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EditPlansActivity"
+            android:parentActivityName=".PlansActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AddNewPlanAtivity"
+            android:parentActivityName=".PlansActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PlansActivity"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AddNewCustomer"
+            android:parentActivityName=".Customers"
+            android:screenOrientation="portrait" />
+        <activity android:name=".AccountantMainActivity" />
+        <activity android:name=".Account" />
+        <activity android:name=".Customers" />
+        <activity android:name=".LoginActivity" />
+        <activity
+            android:name=".SplashActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

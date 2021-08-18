@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "573461090833",
+    "firebase_url": "https://punerainvestmart-89fc5-default-rtdb.firebaseio.com",
+    "project_id": "punerainvestmart-89fc5",
+    "storage_bucket": "punerainvestmart-89fc5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573461090833:android:e2b4c95728a29757c997b0",
+        "android_client_info": {
+          "package_name": "com.dinesh.punerainvestmart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "573461090833-setv4b5idl5lhcsv2nh4402cpe1k9t11.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgN25jDeeBI0Y02mJsQkkDIjY4KH0j7CU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "573461090833-setv4b5idl5lhcsv2nh4402cpe1k9t11.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573461090833:android:ab632e250b43f849c997b0",
+        "android_client_info": {
+          "package_name": "com.dinesh.punerainvestmartadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "573461090833-setv4b5idl5lhcsv2nh4402cpe1k9t11.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgN25jDeeBI0Y02mJsQkkDIjY4KH0j7CU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "573461090833-setv4b5idl5lhcsv2nh4402cpe1k9t11.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
