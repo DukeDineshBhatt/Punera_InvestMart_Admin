@@ -9,7 +9,7 @@ import android.view.View;
 
 public class MainActivity extends ManagerBaseActivity {
 
-    CardView plans, customers,feeds,market;
+    CardView plans, customers,feeds,market,change;
     public static final String PREFS_NAME = "MyPrefsFile";
     private static final String SELECTED_ITEM = "arg_selected_item";
     int mSelectedItem;
@@ -27,6 +27,7 @@ public class MainActivity extends ManagerBaseActivity {
         customers = findViewById(R.id.customers);
         feeds = findViewById(R.id.feeds);
         market = findViewById(R.id.market);
+        change = findViewById(R.id.change);
 
 
         plans.setOnClickListener(new View.OnClickListener() {
@@ -34,6 +35,16 @@ public class MainActivity extends ManagerBaseActivity {
             public void onClick(View view) {
 
                 Intent intent = new Intent(MainActivity.this, PlansActivity.class);
+                startActivity(intent);
+
+            }
+        });
+
+        change.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent = new Intent(MainActivity.this, ChangeImageActivity.class);
                 startActivity(intent);
 
             }
